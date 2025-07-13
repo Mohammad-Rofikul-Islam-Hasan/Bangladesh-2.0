@@ -1,3 +1,70 @@
+/* Shared Styles  */
 .font-fira-sans {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1280px;
+  background-color: #e3e2e2;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+.btn{
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+/* Navbar Styles  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  margin: 20px 0px;
+  /* border: 1px solid #006A50; */
+}
+nav h1 {
+  color: #006A50;
+}
+nav button{
+  color: #006A50;
+  outline: 1px solid #006A50;
+}
+nav button:hover {
+  background-color: #006A50;
+  color: #fff;
+}
+
+/* Banner Section Styles */
+.banner-container{
+  display: flex;
+  align-items: center;
+  background-color: #C6E4D6;
+  border-radius: 20px;
+  padding: 100px 60px;
+  gap: 20px;
+}
+.banner-content{
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.banner-content h4 {
+  color: gray;
+}
+.banner-content h2 {
+  font-size: 55px;
+}
+.banner-content button {
+  background-color: #006A50;
+  color: #fff;
 }
